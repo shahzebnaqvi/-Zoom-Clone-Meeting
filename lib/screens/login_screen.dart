@@ -25,10 +25,10 @@ class _LoginScreenState extends State<LoginScreen> {
               fontWeight: FontWeight.bold,
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 38.0),
-            child: Image.asset('assets/images/onboarding.jpg'),
-          ),
+          // Padding(
+          //   padding: const EdgeInsets.symmetric(vertical: 38.0),
+          //   child: Image.asset('assets/images/onboarding.png'),
+          // ),
           CustomButton(
             text: 'Google Sign In',
             onPressed: () async {
